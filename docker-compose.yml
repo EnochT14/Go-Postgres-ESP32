@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  app:
+    image: index:latest
+    ports:
+      - "8080:8080"
+    environment:
+      DB_UPSTREAM: http://${DOCKER_GATEWAY_HOST:-host.docker.internal}:3000
