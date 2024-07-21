@@ -14,11 +14,11 @@ import (
 )
 
 const (
-	host          = "89.168.96.111" // db.jisbrbnxxlltogqswsnx.supabase.co
+	host          = "your_host"
 	port          = 5432
-	user          = "postgres"        //root
-	password      = "u.!iQJ3itapJ9tp" //root , zq6G_gSJ:FeqErH
-	dbname        = "postgres"        //esp32_data, test_db --- to change to postgres only db
+	user          = "postgres"
+	password      = "your_pass" 
+	dbname        = "postgres" 
 	listenAddress = ":8080"
 )
 
